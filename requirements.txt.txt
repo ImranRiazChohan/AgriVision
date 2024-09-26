@@ -1,0 +1,5 @@
+ultralytics==8.2.94
+groq
+streamlit
+opencv-python
+requests
