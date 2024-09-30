@@ -3,3 +3,4 @@ groq
 streamlit
 opencv-python
 requests
+scikit-image
