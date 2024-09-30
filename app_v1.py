@@ -77,12 +77,27 @@ os.environ["GROQ_API_KEY"]="gsk_svUkueP2bEsQbjZHWRGHWGdyb3FYfvibSSF03WjMDsQYI9Zo
 
 model=  YOLO('best_seg.pt')
 
+
+st.set_page_config(
+    page_title='AgriVision'
+)
+
 st.image("banner_hd.png",use_column_width=True)
+
+body='''<h3>Professor Dr. Tanzila Saba</h3>
+<h5>Research Professor / Lab Leader 
+Associate Director,Research And Initiative Center(RIC)</h5>
+'''
+st.markdown(body, unsafe_allow_html=True)
+st.divider()
 st.logo("AgriVision.png")
 st.sidebar.image("AgriVision.png")
+
+
 on=st.sidebar.toggle("Arabic")
 options=st.sidebar.radio("File Upload",("Upload Image","Live Camera","AI-Agent"))
 if options=="Upload Image":
+    st.title("Upload Palm Tree Leave Images")
     image=st.file_uploader("",type=['jpeg','png','jpg'])
     if image is not None:
          # Read the uploaded file as an OpenCV image
