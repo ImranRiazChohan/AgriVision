@@ -77,14 +77,12 @@ os.environ["GROQ_API_KEY"]="gsk_svUkueP2bEsQbjZHWRGHWGdyb3FYfvibSSF03WjMDsQYI9Zo
 
 model=  YOLO('best_seg.pt')
 
-st.sidebar.title("AgriVision")
-# image=("AgriVision.png")
+st.image("banner_hd.png",use_column_width=True)
 st.logo("AgriVision.png")
+st.sidebar.image("AgriVision.png")
 on=st.sidebar.toggle("Arabic")
 options=st.sidebar.radio("File Upload",("Upload Image","Live Camera","AI-Agent"))
 if options=="Upload Image":
-    st.markdown('<h3>Select Image</h3>', unsafe_allow_html=True)
-
     image=st.file_uploader("",type=['jpeg','png','jpg'])
     if image is not None:
          # Read the uploaded file as an OpenCV image
@@ -476,41 +474,37 @@ elif options=="Live Camera":
 
 
 elif options=="AI-Agent":
-    # Set the title of the app
-    st.title("Palm-Disease bot ")
-
-    # Initialize the chat history
+    
+    # Initialize the chat history in session state
     if 'messages' not in st.session_state:
         st.session_state.messages = []
+    # Sidebar layout with container for messages
+    with st.sidebar:
+        # Define the container for chat messages
+        messages_container = st.container(height=500)
+        
+        # Chat input at the bottom
+        prompt = st.chat_input("Say something")
+        if on:
+            if prompt:
+                response = precaution_chatbot(prompt)  # Get response from chatbot
+                convert_arabic_prompt=precaution_convert_into_arabic("https://deep-translator-api.azurewebsites.net/google/",{"source": "english","target": "arabic","text": f"{prompt}","proxies": []})
+                convert_arabic_response=precaution_convert_into_arabic("https://deep-translator-api.azurewebsites.net/google/",{"source": "english","target": "arabic","text": f"{response}","proxies": []})
+                # Append user and bot messages to session state
+                st.session_state.messages.append({"role": "user", "content": convert_arabic_prompt})
+                st.session_state.messages.append({"role": "assistant", "content": convert_arabic_response})
+        else:
+            if prompt:
+                response = precaution_chatbot(prompt)  # Get response from chatbot
+                # Append user and bot messages to session state
+                st.session_state.messages.append({"role": "user", "content": prompt})
+                st.session_state.messages.append({"role": "assistant", "content": response})
 
-    # Chat input
-    prompt = st.chat_input("Say something")
-
-    if prompt:
-        response=precaution_chatbot(prompt)
-        # Store the user input
-        st.session_state.messages.append({"role": "user", "content": prompt})
-
-        # # Simple bot response
-        # response = f"{prompt}"
-        # st.session_state.messages.append({"role": "bot", "content": response})
-
-        # Display user message
-        with st.chat_message("user"):
-            st.write(prompt)
-
-        # Display bot response
-        with st.chat_message("assistant"):
-            st.write(response)
-
-   
-    # Display the chat history
-    if st.session_state.messages:
-        for message in st.session_state.messages:
-            if message['role'] == 'user':
-                with st.chat_message("user"):
-                    st.write(message['content'])
-            else:
-                with st.chat_message("assistant"):
-                    st.write(message['content'])
-    
+        # Display chat history inside the container
+        with messages_container:
+            if st.session_state.messages:
+                for message in st.session_state.messages:
+                    if message['role'] == 'user':
+                        st.chat_message("user").write(message['content'])
+                    else:
+                        st.chat_message("assistant").write(message['content'])
