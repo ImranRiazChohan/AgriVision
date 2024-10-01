@@ -49,4 +49,4 @@ Open command prompt in the project's folder
 ### Built With
 This section shows the frameworks and libraries utilized in the project. 
 
-![Streamlit](https://www.google.com/url?sa=i&url=https%3A%2F%2Fstreamlit.io%2Fbrand&psig=AOvVaw20EISX0U3XITV1oeGDnG64&ust=1727865367507000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKif9p_-7IgDFQAAAAAdAAAAABAE)
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstreamlit.io%2Fbrand&psig=AOvVaw20EISX0U3XITV1oeGDnG64&ust=1727865367507000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKif9p_-7IgDFQAAAAAdAAAAABAE" alt="Framework Logo" width="200"/>
