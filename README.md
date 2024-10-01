@@ -55,6 +55,7 @@ This section shows the frameworks and libraries utilized in the project.
 <img src="https://cdn.prod.website-files.com/5f6bc60e665f54db361e52a9/63f6895d515270ffdafd36d5_yolov8-p-500.avif" alt="ultralytics-yolov8" width="50" height="50"/>
 <img src="https://cdn.prod.website-files.com/5f6bc60e665f54545a1e52a5/612ceede647190109abb0541_full-logo-p-500.png" alt="roboflow" width="50" height="50"/>
 <img src="https://raw.githubusercontent.com/RMNCLDYO/groq-ai-toolkit/main/.github/groq-logo.png" alt="groq" width="50" height="50"/>
+<img src="https://avatars.githubusercontent.com/u/897180?v=4" alt="sk=image" width="50" height="50"/>
 
 
 </p>
