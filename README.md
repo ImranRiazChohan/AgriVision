@@ -54,7 +54,7 @@ The palm tree disease dataset includes images of various palm trees affected by 
 
 ### Key Features
 - **Image Count:** 460 
-- **Disease Types:** Black_Scorch,Parlatoria_Blanchardi
+- **Disease Types:** **Black_Scorch**,**Parlatoria_Blanchardi**
 - **Annotation Tool:** The dataset has been annotated using [RoboFlow](https://roboflow.com), a powerful tool for creating and managing image datasets.
 
 ## Data Access
@@ -66,10 +66,10 @@ You can access and download the annotated dataset from the following link:
 Below are some screenshots illustrating the annotations done using RoboFlow:
 
 ![Screenshot 1](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/class_1.PNG)  
-*Example of a palm tree affected by Black-Scorch*
+*Example of a palm tree affected by **Black-Scorc**h*
 
 ![Screenshot 2](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/class_2.PNG)  
-*Example of a palm trees affected by Parlatoria_Blanchardi*
+*Example of a palm trees affected by **Parlatoria_Blanchardi***
 
 
 ### Getting Started
