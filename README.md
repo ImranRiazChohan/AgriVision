@@ -52,7 +52,7 @@ This section shows the frameworks and libraries utilized in the project.
 <p align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/>
 <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="streamlit" width="50" height="50"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/OpenCV_Logo_with_text.png" alt="opencv" width="50" height="50"/>
-<img src="https://cdn.prod.website-files.com/5f6bc60e665f54db361e52a9/63f6895d515270ffdafd36d5_yolov8-p-500.avif" alt="ultralytics-yolov8" width="50" height="50"/>
+<img src="https://cdn.prod.website-files.com/5f6bc60e665f54db361e52a9/63f6895d515270ffdafd36d5_yolov8-p-500.avif" alt="ultralytics-yolov8" width="100" height="100"/>
 <img src="https://d7umqicpi7263.cloudfront.net/img/product/bac68257-ed7e-42b0-8e89-949059246430.png" alt="roboflow" width="50" height="50"/>
 <img src="https://raw.githubusercontent.com/RMNCLDYO/groq-ai-toolkit/main/.github/groq-logo.png" alt="groq" width="50" height="50"/>
 <img src="https://avatars.githubusercontent.com/u/897180?v=4" alt="sk=image" width="50" height="50"/>
