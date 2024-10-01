@@ -49,4 +49,5 @@ Open command prompt in the project's folder
 ### Built With
 This section shows the frameworks and libraries utilized in the project. 
 
-<img src="https://www.python.org/community/logos/python-logo-master-v3.png" alt="Python Logo" width="200"/>
+<code><img height="30" src="
+https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
