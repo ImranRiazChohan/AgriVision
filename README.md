@@ -46,7 +46,7 @@ Open command prompt in the project's folder
   Streamlit run app_v1.py
   ```
 
-### Built By
-* <img src="assets/AgriVision.png" alt="Logo" />
-* <img src="assets/AgriVision.png" alt="Logo" />
-* <img src="assets/AgriVision.png" alt="Logo" />
+### Built With
+This section shows the frameworks and libraries utilized in the project. 
+
+![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
