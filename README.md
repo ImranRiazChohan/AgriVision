@@ -49,4 +49,4 @@ Open command prompt in the project's folder
 ### Built With
 This section shows the frameworks and libraries utilized in the project. 
 
-![Python Logo](https://www.python.org/community/logos/python-logo-master-v3.png)
+<img src="https://www.python.org/community/logos/python-logo-master-v3.png" alt="Python Logo" width="200"/>
