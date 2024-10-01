@@ -1,4 +1,4 @@
-<br />
+![image](https://github.com/user-attachments/assets/5bcdc25f-c2aa-4af0-b6c5-0c6fbd6eca05)<br />
 <div align="center">
     <img src="assets/AgriVision.png" alt="Logo" />
     <h3 align="center">🤖 AI-DRIVEN INNOVATIONS FOR SUSTAINABLE DATE FARMING 🌴 </h3>
@@ -50,7 +50,7 @@ Open command prompt in the project's folder
 This section shows the frameworks and libraries utilized in the project. 
 
 <p align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+<img src="https://streamlit.io/images/brand/streamlit-logo-secondary-lightmark-lighttext.svg" alt="streamliy" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
