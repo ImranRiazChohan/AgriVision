@@ -101,9 +101,9 @@ Open command prompt in the project's folder
 ### *Chatbot Page*
 ![chat_page](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/chatbot_page.PNG)
 ### *Disease Detection and Prevention Recommendation Page*
-![input_1](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/chatbot_page.PNG)
-![input_2](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/chatbot_page.PNG)
-![input_3](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/chatbot_page.PNG)
+![input_1](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/image_segmentation_page_1.PNG)
+![input_2](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/image_segmentation_page_2.PNG)
+![input_3](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/image_segmentation_page_3.PNG)
 ## Demo
 
 
