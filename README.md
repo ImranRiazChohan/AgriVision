@@ -11,7 +11,8 @@
 <br
 
 
-### Getting Started
+
+## Getting Started
 
 ### Prerequisites
 
@@ -22,7 +23,7 @@
 Open command prompt in the project's folder
 1. Clone repository 
   ```sh
-  git clone https://github-id
+  git clone https://github.com/Muhammad-Usama-07/computer_vision_work/tree/main/date_palm_diseases
   ```
 2. Goto the project's folder
   ```sh
