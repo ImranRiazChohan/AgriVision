@@ -22,7 +22,7 @@ The primary objective of this research is to develop and implement advanced deep
 
 
 
-### Image Segmentation for Disease Detection and Prevention
+### Real-Time Image Segmentation for Disease Detection and Prevention
 
 **Description:**  
 Develop a deep learning model that utilizes image segmentation techniques to identify and classify Palm leaf diseases from images. The model will analyze segmented areas of the leaf to provide detailed insights into the disease's extent and severity.
@@ -32,19 +32,6 @@ Develop a deep learning model that utilizes image segmentation techniques to ide
 - **Prevention and Precaution Recommendations:** Based on the disease detected, the system generates tailored recommendations for prevention and treatment, including appropriate fungicides, watering techniques, and environmental adjustments.
 - **User-Friendly Interface:** An easy-to-navigate platform for farmers to access disease information and recommendations.
 
----
-
-### Real-Time Disease Detection and Management
-
-**Description:**  
-Create a real-time monitoring system that leverages cameras or drones equipped with deep learning algorithms for continuous observation of Palm crops. This system will detect diseases as they develop and provide immediate alerts and recommendations.
-
-**Features:**
-- **Continuous Monitoring:** Utilize IoT devices or drones for real-time imaging of crops, enabling constant surveillance.
-- **Instant Alerts:** Farmers receive immediate notifications about disease detection, allowing for swift intervention.
-- **Actionable Insights:** The system will offer real-time recommendations based on the current state of the plants, such as irrigation adjustments or pest control measures.
-
-
 ### AI-Powered Chatbot for Decision Support
 
 **Description:**  
@@ -52,9 +39,6 @@ Develop an AI-driven chatbot that farmers can interact with to seek advice on Pa
 
 **Features:**
 - **Interactive Q&A:** Farmers can ask questions related to disease identification, treatment options, and best practices for prevention.
-- **Personalized Recommendations:** The chatbot analyzes user input and previous interactions to provide customized guidance tailored to specific situations.
-- **Integration with Image Analysis:** Users can upload images directly to the chatbot, allowing it to perform disease identification and offer corresponding advice.
-
 
 
 ### Dataset
