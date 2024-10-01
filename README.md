@@ -96,7 +96,10 @@ Open command prompt in the project's folder
   Streamlit run app_v1.py
   ```
 ## Snapshot
-
+### *Main Page*
+![main_page](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/main_page.PNG)
+### *Input Image*
+![main_page]()
 ## Demo
 
 
