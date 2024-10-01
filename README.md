@@ -107,7 +107,7 @@ Open command prompt in the project's folder
 ## Demo
 
 <div align="center">
-https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/project_demo.mp4  
+https://github.com/user-attachments/assets/d299fb32-171f-4229-a73c-71c50c1bb3ec    
 </div>
 
 ## Languages & Tools
