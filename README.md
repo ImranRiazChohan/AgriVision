@@ -16,12 +16,16 @@
 
 ### Goal
 
+### Features
+* Chatbot
+* Palm Disease Segmentation and Detection 
+
 ### Getting Started
 
 ### Prerequisites
 
 * Install Python version 3.11 on the system
-
+  
 ### Steps to run the project
 
 Open command prompt in the project's folder
