@@ -13,10 +13,10 @@
 ## Problem Statement
 Despite advancements in agricultural technology, farmers face significant challenges in the early detection and management of plant diseases, leading to substantial crop losses. Current methods often struggle with issues such as noise reduction, effective feature extraction, and redundant data elimination, resulting in inefficient disease identification and delayed interventions. Moreover, there is a pressing need for deep learning models that are not only effective but also efficient, with fewer parameters and faster training times. This research seeks to address these challenges by integrating advanced AI techniques—specifically, **YOLOv8** for disease detection and **LLama3** for preventive recommendations—aimed at revolutionizing disease management in Palm date farming and ensuring a sustainable agricultural future.
 
-### Objective
+## Objective
 The primary objective of this research is to develop and implement advanced deep learning models for the early detection, classification, and prevention of Palm leaf diseases, utilizing **YOLOv8** for precise disease detection and **LLama3** for decision support. The goal is to enhance agricultural practices by providing farmers with real-time recommendations and automated solutions that improve crop management efficiency, reduce crop losses, and promote sustainable date farming.
 
-### Features
+## Features
 
 ### Real-Time Image Segmentation for Disease Detection and Prevention
 
@@ -37,12 +37,12 @@ Develop an AI-driven chatbot that farmers can interact with to seek advice on Pa
 - **Interactive Q&A:** Farmers can ask questions related to disease identification, treatment options, and best practices for prevention.
 
 
-### Palm Tree Disease Dataset
+## Palm Tree Disease Dataset
 
-## Overview
+### Overview
 This repository contains a dataset focused on palm tree diseases, which has been annotated for use in machine learning applications. The dataset aims to support research and development in the identification and treatment of diseases affecting palm trees.
 
-## Original Dataset
+### Original Dataset
 The original dataset was sourced from [dataset](https://drive.google.com/drive/folders/1GsEGFi5REM1Lc0185RKKpVc9CjqOf68D?usp=sharing). It includes a wide range of images showcasing various conditions affecting palm trees.
 
 ## Dataset Description
@@ -53,12 +53,12 @@ The palm tree disease dataset includes images of various palm trees affected by 
 - **Disease Types:** **Black_Scorch**,**Parlatoria_Blanchardi**
 - **Annotation Tool:** The dataset has been annotated using [RoboFlow](https://roboflow.com), a powerful tool for creating and managing image datasets.
 
-## Data Access
+### Data Access
 You can access and download the annotated dataset from the following link:
 
 [Download Palm Tree Disease Dataset](https://universe.roboflow.com/imran-riaz-chohan/dates_leaves_disease_seg_dataset/dataset/1)
 
-## Screenshots
+### Screenshots
 Below are some screenshots illustrating the annotations done using RoboFlow:
 
 ![Screenshot 1](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/class_1.PNG)  
@@ -70,7 +70,7 @@ Below are some screenshots illustrating the annotations done using RoboFlow:
 ![Screenshot 2](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/roboflow_1.PNG) 
 *Overview of the annotation process in RoboFlow*
 
-### Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -95,13 +95,13 @@ Open command prompt in the project's folder
   ```sh
   Streamlit run app_v1.py
   ```
-### Snapshot
+## Snapshot
 
-### Demo
+## Demo
 
 
 
-### <h3 align="left">Languages & Tools:</h3>
+## Languages & Tools
 This section shows the frameworks and libraries utilized in the project. 
 * Python
 * Streamlit
