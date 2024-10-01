@@ -13,3 +13,26 @@
 
 ## Getting Started
 
+### Prerequisites
+
+* Install Python version 3.11 on the system
+
+### Steps to run the project
+
+Open command prompt in the project's folder
+1. Clone repository 
+  ```sh
+  git clone https://github-id
+  ```
+2. Goto the project's folder
+  ```sh
+  cd date_palm_diseases
+  ```
+3. Install required packages 
+  ```sh
+  pip install -r requirements.txt
+  ```
+4. Run project 
+  ```sh
+  Streamlit run app.py
+  ```
