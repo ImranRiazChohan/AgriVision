@@ -13,12 +13,15 @@
 ### Problem Statement
 
 ### Objective
-
-### Goal
-
+<p>
+The primary objective of this research is to develop and implement advanced deep learning models for the early detection, classification, and prevention of Palm leaf diseases, utilizing **YOLOv8** for precise disease detection and **LLama3** for decision support. The goal is to enhance agricultural practices by providing farmers with real-time recommendations and automated solutions that improve crop management efficiency, reduce crop losses, and promote sustainable date farming.
+</p>
 ### Features
 * Chatbot
 * Palm Disease Segmentation and Detection 
+
+### Dataset
+
 
 ### Getting Started
 
@@ -45,9 +48,20 @@ Open command prompt in the project's folder
   ```sh
   Streamlit run app_v1.py
   ```
+### Snapshot
 
-### <h3 align="left">Languages and Tools:</h3>
+### Demo
+
+
+
+### <h3 align="left">Languages & Tools:</h3>
 This section shows the frameworks and libraries utilized in the project. 
+* Python
+* Streamlit
+* Opencv
+* Llama3
+* Ultralytics
+* YoloV8
 
 <p align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/>
 <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="streamlit" width="50" height="50"/>
