@@ -49,4 +49,4 @@ Open command prompt in the project's folder
 ### Built With
 This section shows the frameworks and libraries utilized in the project. 
 
-<code><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png"></code>
+<code><img height="50" src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png"></code>
