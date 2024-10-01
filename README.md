@@ -106,7 +106,9 @@ Open command prompt in the project's folder
 ![input_3](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/image_segmentation_page_3.PNG)
 ## Demo
 
-
+<div align="center">
+https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/app_video.webm  
+</div>
 
 ## Languages & Tools
 This section shows the frameworks and libraries utilized in the project. 
