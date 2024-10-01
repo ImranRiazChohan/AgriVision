@@ -46,9 +46,6 @@ Open command prompt in the project's folder
   Streamlit run app_v1.py
   ```
 
-### Built With
+### <h3 align="left">Languages and Tools:</h3>
 This section shows the frameworks and libraries utilized in the project. 
-
-<img height="90" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png">
-
-<img height="90" src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png">
+<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
