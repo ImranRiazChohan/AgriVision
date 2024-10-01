@@ -10,7 +10,11 @@
 </div>
 <br
 
+### Problem Statement
 
+### Objective
+
+### Goal
 
 ### Getting Started
 
@@ -23,7 +27,7 @@
 Open command prompt in the project's folder
 1. Clone repository 
   ```sh
-  git clone https://github.com/Muhammad-Usama-07/computer_vision_work/tree/main/date_palm_diseases
+  git clone https://github.com/
   ```
 2. Goto the project's folder
   ```sh
@@ -35,5 +39,7 @@ Open command prompt in the project's folder
   ```
 4. Run project 
   ```sh
-  Streamlit run app.py
+  Streamlit run app_v1.py
   ```
+
+### 
