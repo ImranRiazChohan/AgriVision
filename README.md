@@ -10,4 +10,4 @@
 </div>
 <br
 
-<h3>Getting Started</h3>
+<h1>Getting Started</h1>
