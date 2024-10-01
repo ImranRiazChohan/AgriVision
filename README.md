@@ -50,3 +50,5 @@ Open command prompt in the project's folder
 This section shows the frameworks and libraries utilized in the project. 
 
 <img height="90" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png">
+
+<img height="90" src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png">
