@@ -98,8 +98,8 @@ Open command prompt in the project's folder
 ## Snapshot
 ### *Main Page*
 ![main_page](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/main_page.PNG)
-### *Input Image*
-![main_page]()
+### *Chatbot Page*
+![chat_page](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/chatbot_page.PNG)
 ## Demo
 
 
