@@ -166,9 +166,10 @@ https://github.com/user-attachments/assets/1eb4a3a3-e0b2-4633-b4a2-919008eec58e
 ## Model Results
 *Confusion Matrix & Result*
 
-https://github.com/tmsherazi-psu/AgriVision_Project/blob/main/Graphs/confusion_matrix.png
+![confusion_matrix (3)](https://github.com/user-attachments/assets/2f6c3d62-4e04-4a1b-aa39-9bd3c8e1e15a)
 
-https://github.com/tmsherazi-psu/AgriVision_Project/blob/main/Graphs/results.png
+![results (1)](https://github.com/user-attachments/assets/bedfb40b-da60-4ca3-b8b1-43a6b0b00dfc)
+
 
 ## Languages & Tools
 This section shows the frameworks and libraries utilized in the project. 
