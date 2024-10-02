@@ -66,8 +66,9 @@ Below are some screenshots illustrating the annotations done using RoboFlow:
 
 ![Screenshot 2](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/class_2.PNG)  
 *Example of a palm trees affected by **Parlatoria_Blanchardi***
+
 ![data_annotation](https://github.com/user-attachments/assets/6c70173d-b8a7-480a-b9f6-7e8b1a1909fa)
-*Example of a palm trees affected by **Parlatoria_Blanchardi***
+
 
 
 ## Preparing a custom dataset on Roboflow
