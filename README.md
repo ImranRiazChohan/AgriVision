@@ -67,8 +67,56 @@ Below are some screenshots illustrating the annotations done using RoboFlow:
 ![Screenshot 2](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/class_2.PNG)  
 *Example of a palm trees affected by **Parlatoria_Blanchardi***
 
-![Screenshot 2](https://github.com/ImranRiazChohan/Medina_Hackathon_Dates/blob/main/assets/roboflow_1.PNG) 
-*Overview of the annotation process in RoboFlow*
+## Preparing a custom dataset on Roboflow
+
+Building a custom dataset can be a painful process. It might take dozens or even hundreds of hours to collect images, label them, and export them in the proper format. Fortunately, Roboflow makes this process as straightforward and fast as possible. Let me show you how!
+
+### Step 1: Creating project
+
+Before you start, you need to create a Roboflow [account](https://app.roboflow.com/login). Once you do that, you can create a new project in the Roboflow [dashboard](https://app.roboflow.com/). Keep in mind to choose the right project type. In our case, Object Detection.
+
+<div align="center">
+  <img
+    width="640"
+    src=""
+  >
+</div>
+
+### Step 2: Uploading images
+
+Next, add the data to your newly created project. You can do it via API or through our [web interface](https://docs.roboflow.com/adding-data/object-detection).
+
+If you drag and drop a directory with a dataset in a supported format, the Roboflow dashboard will automatically read the images and annotations together.
+
+<div align="center">
+  <img
+    width="640"
+    src="https://ik.imagekit.io/roboflow/preparing-custom-dataset-example/uploading-images.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1672929808290"
+  >
+</div>
+
+### Step 3: Generate new dataset version
+
+Now that we have our images and annotations added, we can Generate a Dataset Version. When Generating a Version, you may elect to add preprocessing and augmentations. This step is completely optional, however, it can allow you to significantly improve the robustness of your model.
+
+<div align="center">
+  <img
+    width="640"
+    src="https://media.roboflow.com/preparing-custom-dataset-example/generate-new-version.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1673003597834"
+  >
+</div>
+
+### Step 4: Exporting dataset
+
+Once the dataset version is generated, we have a hosted dataset we can load directly into our notebook for easy training. Click `Export` and select the `YOLOv8` dataset format.
+
+<div align="center">
+  <img
+    width="640"
+    src="https://ik.imagekit.io/roboflow/preparing-custom-dataset-example/export.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1672943313709"
+  >
+</div>
+
 
 ## Getting Started
 
@@ -125,57 +173,5 @@ This section shows the frameworks and libraries utilized in the project.
 <img src="https://avatars.githubusercontent.com/u/897180?v=4" alt="sk=image" width="50" height="50"/>
 </p>
 
-
-
-
-# Preparing a custom dataset
-
-Building a custom dataset can be a painful process. It might take dozens or even hundreds of hours to collect images, label them, and export them in the proper format. Fortunately, Roboflow makes this process as straightforward and fast as possible. Let me show you how!
-
-### Step 1: Creating project
-
-Before you start, you need to create a Roboflow [account](https://app.roboflow.com/login). Once you do that, you can create a new project in the Roboflow [dashboard](https://app.roboflow.com/). Keep in mind to choose the right project type. In our case, Object Detection.
-
-<div align="center">
-  <img
-    width="640"
-    src=""
-  >
-</div>
-
-### Step 2: Uploading images
-
-Next, add the data to your newly created project. You can do it via API or through our [web interface](https://docs.roboflow.com/adding-data/object-detection).
-
-If you drag and drop a directory with a dataset in a supported format, the Roboflow dashboard will automatically read the images and annotations together.
-
-<div align="center">
-  <img
-    width="640"
-    src="https://ik.imagekit.io/roboflow/preparing-custom-dataset-example/uploading-images.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1672929808290"
-  >
-</div>
-
-### Step 3: Generate new dataset version
-
-Now that we have our images and annotations added, we can Generate a Dataset Version. When Generating a Version, you may elect to add preprocessing and augmentations. This step is completely optional, however, it can allow you to significantly improve the robustness of your model.
-
-<div align="center">
-  <img
-    width="640"
-    src="https://media.roboflow.com/preparing-custom-dataset-example/generate-new-version.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1673003597834"
-  >
-</div>
-
-### Step 4: Exporting dataset
-
-Once the dataset version is generated, we have a hosted dataset we can load directly into our notebook for easy training. Click `Export` and select the `YOLOv8` dataset format.
-
-<div align="center">
-  <img
-    width="640"
-    src="https://ik.imagekit.io/roboflow/preparing-custom-dataset-example/export.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1672943313709"
-  >
-</div>
 
 
